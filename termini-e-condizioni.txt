@@ -1,0 +1,335 @@
+================================================================================
+                      TERMINI E CONDIZIONI DI UTILIZZO
+                                 "CosaFare"
+================================================================================
+
+Ultimo aggiornamento: 03/10/2026
+Versione documento: v1.1
+Applicazione: CosaFare (Piattaforma ed Eventi in Toscana)
+Documenti correlati: Informativa sulla Privacy (Privacy Policy)
+
+--------------------------------------------------------------------------------
+1. GESTORE DELLA PIATTAFORMA E PREMESSA
+--------------------------------------------------------------------------------
+Il presente documento (di seguito, i «Termini e Condizioni» o «Termini») disciplina 
+l'accesso, la consultazione e l'utilizzo dell'applicazione mobile "CosaFare", del 
+relativo sito/servizi web e dei sistemi di gestione e moderazione collegati 
+(di seguito, congiuntamente, la «Piattaforma» o i «Servizi»).
+
+La Piattaforma è sviluppata e gestita da:
+- Titolare / Gestore: Progetto CosaFare (di seguito, il «Gestore»)
+- Sviluppatore di riferimento: TFDLab
+- Email di contatto e supporto: tfdlab.info@gmail.com
+- Territorio di riferimento principale: Regione Toscana, Italia
+
+I presenti Termini stabiliscono i diritti e i doveri di chiunque acceda o utilizzi 
+la Piattaforma. Si raccomanda di leggere attentamente il presente testo prima di 
+iniziare la navigazione o di registrarsi ai Servizi.
+
+--------------------------------------------------------------------------------
+2. DEFINIZIONI
+--------------------------------------------------------------------------------
+Ai fini dell'interpretazione dei presenti Termini e Condizioni, si applicano le 
+seguenti definizioni:
+- «App» o «CosaFare»: l'applicazione software per dispositivi mobili (Android e 
+  altri sistemi operativi supportati) denominata "CosaFare", comprensiva di tutte 
+  le interfacce, codici, database, loghi, grafiche e contenuti.
+- «Gestore»: il soggetto responsabile dello sviluppo, manutenzione e gestione 
+  dell'App, come identificato all'articolo 1.
+- «Utente»: qualsiasi persona fisica o giuridica che acceda all'App, ivi inclusi i 
+  visitatori non autenticati, gli utenti registrati e i referenti delle realtà 
+  organizzatrici.
+- «Ospite» (o «Visitatore»): l'Utente che naviga e consulta l'App in modalità non 
+  autenticata (Guest Mode), senza procedere alla registrazione di un account.
+- «Utente Registrato»: l'Utente che ha effettuato l'autenticazione tramite il proprio 
+  account di terze parti (Google Sign-In) per usufruire delle funzionalità avanzate 
+  e personalizzate dell'App.
+- «Organizzatore»: qualsiasi ente locale, comitato promotore, Pro Loco, associazione 
+  culturale o di volontariato, cooperativa, esercente o persona fisica che inserisce, 
+  segnala o richiede la pubblicazione di eventi, manifestazioni, sagre, feste o fiere 
+  sulla Piattaforma.
+- «Evento»: qualsiasi sagra, festa tradizionale o patronale, festival musicale, 
+  rassegna culturale, mercatino, fiera, mostra o iniziativa ricreativa geolocalizzata 
+  sul territorio toscano e resa visibile all'interno dell'App.
+- «Contenuti dell'Evento»: tutte le informazioni correlate a un Evento, inclusi a 
+  titolo esemplificativo titoli, descrizioni, date, orari di apertura, programmi, 
+  locandine grafiche, fotografie, menù gastronomici, prezzi, indicazioni stradali 
+  e coordinate geografiche.
+- «Consumatore»: la persona fisica che agisce per scopi estranei all'attività 
+  imprenditoriale, commerciale, artigianale o professionale eventualmente svolta, 
+  ai sensi del D.Lgs. 206/2005 («Codice del Consumo»).
+
+--------------------------------------------------------------------------------
+3. AMBITO DI APPLICAZIONE
+--------------------------------------------------------------------------------
+I presenti Termini si applicano all'insieme dei Servizi erogati tramite l'App 
+CosaFare e vincolano indistintamente:
+1. I visitatori che utilizzano l'App in modalità "Ospite";
+2. Gli Utenti Registrati mediante Google Sign-In;
+3. Gli Organizzatori che comunicano, caricano o aggiornano i Contenuti degli Eventi.
+
+L'erogazione di eventuali servizi accessori specifici o accordi commerciali 
+dedicati con Organizzatori potrà essere regolata da condizioni particolari 
+che integreranno o prevarranno sui presenti Termini in caso di espresso contrasto.
+
+--------------------------------------------------------------------------------
+4. ACCETTAZIONE DEI TERMINI E CONDIZIONI
+--------------------------------------------------------------------------------
+L'accesso e la navigazione nell'App comportano la piena e incondizionata accettazione 
+dei presenti Termini e Condizioni e della connessa Informativa sulla Privacy.
+
+Al primo avvio dell'App, sia in caso di accesso con registrazione (tramite Google 
+Sign-In) sia in caso di prosecuzione come "Ospite", all'Utente viene sottoposta una 
+casella di spunta obbligatoria («checkbox») mediante la quale dichiara espressamente:
+a) Di aver preso visione, compreso e accettato integralmente i presenti Termini e 
+   Condizioni di Utilizzo;
+b) Di aver preso visione e compreso l'Informativa sulla Privacy di CosaFare.
+
+In assenza della spunta di accettazione, l'accesso alle funzionalità dell'App non 
+sarà consentito e la sessione rimarrà bloccata alla schermata di accesso.
+
+--------------------------------------------------------------------------------
+5. REQUISITI DI ETÀ E CAPACITÀ GIURIDICA
+--------------------------------------------------------------------------------
+L'utilizzo dell'App e la fruizione dei relativi Servizi sono consentiti a utenti 
+che abbiano compiuto almeno 14 anni. L'autenticazione tramite Google Sign-In è 
+subordinata al rispetto dei termini di età previsti da Google per la titolarità di 
+un account personale (di norma 14 anni per l'Italia).
+
+Nel caso in cui l'Utente sia un minore compreso tra i 14 e i 18 anni, l'utilizzo 
+dei Servizi presuppone l'autorizzazione e la vigilanza del genitore o di chi ne 
+esercita la responsabilità genitoriale, che risponderà dell'operato del minore 
+sulla Piattaforma.
+
+Il Gestore non raccoglie scientemente dati di minori di anni 14. Qualora dovesse 
+accertarsi la registrazione di un minore privo dell'età minima prevista dalla legge, 
+il Gestore provvederà tempestivamente alla rimozione dell'account e di tutti i dati 
+correlati.
+
+--------------------------------------------------------------------------------
+6. REGISTRAZIONE, GOOGLE SIGN-IN E SICUREZZA DELL'ACCOUNT
+--------------------------------------------------------------------------------
+L'App non richiede la creazione di una combinazione autonoma di username e password 
+memorizzata sui server di CosaFare, bensì adotta il sistema di autenticazione federata 
+fornito da Google ("Google Sign-In"), basato sull'infrastruttura Google Firebase.
+
+6.1. Obblighi dell'Utente Registrato:
+- L'Utente garantisce che l'account Google utilizzato per accedere all'App è di sua 
+  esclusiva titolarità e che le informazioni anagrafiche fornite sono veritiere e 
+  aggiornate;
+- L'Utente è l'unico responsabile della riservatezza e della custodia delle proprie 
+  credenziali di accesso Google e risponde direttamente di tutte le attività compiute 
+  tramite il proprio profilo nell'App;
+- In caso di smarrimento del dispositivo, compromissione dell'account o sospetto 
+  accesso non autorizzato, l'Utente è tenuto a revocare l'accesso dalle impostazioni 
+  del proprio account Google e a darne tempestiva comunicazione al Gestore all'indirizzo: 
+  tfdlab.info@gmail.com.
+
+6.2. Accesso come Ospite:
+La fruizione dell'App in modalità Ospite non richiede l'inserimento di dati 
+identificativi personali. All'Ospite è assegnata una sessione locale anonima, che 
+consente la consultazione del catalogo eventi ma non consente il salvataggio dei 
+preferiti sincronizzati in cloud tra dispositivi diversi.
+
+--------------------------------------------------------------------------------
+7. DESCRIZIONE DEI SERVIZI OFFERTI DA COSAFARE
+--------------------------------------------------------------------------------
+L'App CosaFare è concepita come una guida interattiva e un aggregatore informativo 
+dedicato alla valorizzazione delle tradizioni, della gastronomia e degli eventi 
+culturali della Regione Toscana.
+
+In particolare, l'App offre le seguenti funzionalità:
+7.1. Catalogo e Ricerca Eventi:
+Consultazione di sagre, feste, festival e fiere suddivisi per categoria e per le 
+dieci province toscane (Arezzo, Firenze, Grosseto, Livorno, Lucca, Massa-Carrara, 
+Pisa, Pistoia, Prato, Siena).
+7.2. Scheda Dettaglio Evento:
+Visualizzazione di locandine promozionali, programma degli spettacoli, orari di 
+inizio/fine, descrizione storica o culturale, eventuali costi d'ingresso e recapiti 
+ufficiali dell'Organizzatore.
+7.3. Menù e Offerta Gastronomica:
+Per le sagre e gli eventi gastronomici, l'App consente di consultare l'elenco dei 
+piatti tipici, dei menù proposti, dei prezzi indicativi e degli eventuali allergeni 
+comunicati dagli Organizzatori.
+7.4. Mappa e Geolocalizzazione:
+Visualizzazione cartografica interattiva degli Eventi mediante l'integrazione del 
+servizio Google Maps SDK; calcolo della distanza chilometrica in linea d'aria 
+rispetto alla posizione istantanea dell'Utente (ove quest'ultimo abbia autorizzato 
+l'accesso alla posizione GPS). L'App consente inoltre di avviare navigatori esterni 
+installati sul dispositivo (ad es. Google Maps, Waze, Apple Maps) per ottenere le 
+indicazioni stradali per raggiungere la sede dell'Evento.
+7.5. Lista dei Preferiti:
+Gli Utenti Registrati possono memorizzare i propri Eventi preferiti per ritrovarli 
+rapidamente in una sezione dedicata e consultarne agevolmente le date.
+
+--------------------------------------------------------------------------------
+8. OBBLIGHI, REGOLE DI CONDOTTA E DIVIETI PER GLI UTENTI
+--------------------------------------------------------------------------------
+L'Utente si impegna a utilizzare l'App in piena conformità con le leggi vigenti, 
+l'ordine pubblico, il buon costume e i presenti Termini.
+
+In particolare, è fatto espresso divieto all'Utente di:
+1. Utilizzare l'App o i suoi contenuti per finalità illecite, ingannevoli, fraudolente 
+   o lesive dei diritti di terzi;
+2. Compiere attività di "scraping", estrazione massiva o copia automatizzata dei 
+   dati, delle immagini, dei menù o degli Eventi presenti nel database di CosaFare 
+   senza preventiva autorizzazione scritta del Gestore;
+3. Tentare di decompilare, disassemblare, decodificare o manomettere il codice 
+   sorgente dell'App, le API o i database Firebase correlati;
+4. Introdurre virus, malware, bot o altro codice tecnologicamente dannoso che possa 
+   compromettere la stabilità, la sicurezza o le prestazioni dell'infrastruttura;
+5. Sovraccaricare o ostacolare intenzionalmente l'ordinario funzionamento dei 
+   server o dei sistemi di rete collegati all'App;
+6. Sfruttare l'App per veicolare materiale pubblicitario non autorizzato, spam, 
+   catene di Sant'Antonio o forme non concordate di marketing diretto.
+
+--------------------------------------------------------------------------------
+9. REGOLE SPECIFICHE PER GLI ORGANIZZATORI E CONTENUTI CARICATI
+--------------------------------------------------------------------------------
+Gli Organizzatori che comunicano, caricano o gestiscono informazioni relative a Eventi 
+(locandine, descrizioni, menù, listini prezzi, orari e recapiti) dichiarano e 
+garantiscono che:
+a) Tutte le informazioni fornite sono veritiere, aggiornate, complete e non ingannevoli;
+b) Sono in possesso di tutte le autorizzazioni, licenze, concessioni di suolo pubblico 
+   e nulla osta previsti dalla normativa amministrativa, sanitaria e di sicurezza 
+   per lo svolgimento della manifestazione;
+c) Le immagini, i loghi, i testi e le locandine caricate non violano diritti d'autore, 
+   marchi registrati o altri diritti di proprietà intellettuale o industriale di terzi;
+d) I menù e le composizioni gastronomiche rispettano le norme vigenti in materia di 
+   trasparenza dei prezzi e comunicazione di sostanze allergeniche (Regolamento UE 
+   n. 1169/2011).
+
+Il Gestore si riserva in ogni momento il diritto insindacabile di verificare, 
+moderare, rifiutare la pubblicazione o rimuovere qualsiasi Evento o Contenuto che 
+risulti obsoleto, errato, fuorviante o in contrasto con le presenti condizioni o 
+con la normativa applicabile, senza che da ciò derivi alcun diritto a indennizzi 
+o risarcimenti a favore dell'Organizzatore.
+
+--------------------------------------------------------------------------------
+10. PROPRIETÀ INTELLETTUALE E LICENZA SUI CONTENUTI
+--------------------------------------------------------------------------------
+10.1. Titolarità del Gestore:
+Tutti i diritti di proprietà intellettuale e industriale relativi all'App CosaFare, 
+inclusi a titolo esemplificativo il nome, il marchio, il logo, il codice sorgente, 
+le architetture software, il design grafico, le icone, la combinazione di colori e 
+l'organizzazione dei database, sono di esclusiva titolarità del Gestore e/o dei 
+suoi danti causa e sono protetti dalle leggi italiane ed internazionali sul diritto 
+d'autore e sui diritti di proprietà industriale.
+
+10.2. Licenza d'uso per l'Utente:
+Il Gestore concede all'Utente una licenza personale, non esclusiva, non trasferibile, 
+non sublicenziabile e revocabile per il download, l'installazione e l'uso dell'App su 
+un dispositivo mobile compatibile, per soli scopi personali e non commerciali.
+
+10.3. Licenza sui contenuti inviati dagli Utenti/Organizzatori:
+Caricando o comunicando locandine, fotografie, descrizioni o menù per la pubblicazione 
+sull'App, l'Organizzatore (o l'Utente) concede al Gestore una licenza gratuita, non 
+esclusiva, mondiale, per l'intera durata della pubblicazione, finalizzata 
+esclusivamente all'erogazione dei Servizi, ivi compresa la memorizzazione, l'adattamento 
+grafico, la visualizzazione e la promozione dell'Evento sui canali ufficiali di 
+CosaFare.
+
+--------------------------------------------------------------------------------
+11. ESCLUSIONE E LIMITAZIONE DI RESPONSABILITÀ
+--------------------------------------------------------------------------------
+11.1. Natura informativa del servizio:
+CosaFare è una piattaforma aggregatrice e divulgativa di informazioni relative a 
+eventi ricreativi e culturali organizzati da terze parti indipendenti (Pro Loco, 
+associazioni, enti comunali, comitati feste). 
+
+11.2. Esclusione di garanzie sull'esattezza degli Eventi:
+Il Gestore impiega ragionevole cura e diligenza nella raccolta e verifica delle 
+informazioni; tuttavia, NON può garantire né assumersi alcuna responsabilità circa:
+- L'effettivo svolgimento, il rinvio o l'annullamento improvviso di un Evento (ad 
+  esempio per maltempo, motivi di ordine pubblico o cause di forza maggiore);
+- La totale esattezza di date, orari di apertura, ubicazione o programmi comunicati 
+  dagli Organizzatori;
+- L'esattezza dei prezzi indicati o la disponibilità delle pietanze riportate nei menù 
+  delle sagre;
+- La presenza o l'assenza di allergeni nelle pietanze preparate e somministrate 
+  dagli Organizzatori;
+- La sicurezza, l'igiene, la capienza o la qualità dei servizi somministrati o offerti 
+  durante gli Eventi.
+L'Utente è vivamente invitato a verificare preventivamente i dettagli dell'Evento 
+contattando i canali ufficiali o i recapiti dell'Organizzatore prima di mettersi in 
+viaggio.
+
+11.3. Continuità operativa e connettività:
+I Servizi sono forniti "nello stato di fatto e di diritto in cui si trovano" ("as is"). 
+Il Gestore non garantisce che l'App operi senza interruzioni, errori, ritardi o 
+disfunzioni derivanti da guasti delle reti di telecomunicazione, interruzioni dei 
+servizi cloud di Google Firebase, indisponibilità temporanea dei servizi Google Maps 
+o cause di forza maggiore.
+
+11.4. Limiti inderogabili:
+Nessuna disposizione dei presenti Termini esclude o limita la responsabilità del 
+Gestore in caso di dolo o colpa grave, né limita i diritti inderogabili riconosciuti 
+dalla legge a favore dell'Utente Consumatore.
+
+--------------------------------------------------------------------------------
+12. SOSPENSIONE DEI SERVIZI E CHIUSURA DELL'ACCOUNT
+--------------------------------------------------------------------------------
+12.1. Chiusura da parte dell'Utente:
+L'Utente Registrato può decidere in qualsiasi momento e senza alcun preavviso di 
+interrompere l'utilizzo dell'App ed eliminare il proprio account.
+L'App mette a disposizione un'apposita procedura automatizzata all'interno della 
+sezione "Profilo" o "Impostazioni" («Elimina Account»). L'attivazione di tale funzione 
+comporta la cancellazione definitiva del profilo utente e di tutti i dati memorizzati 
+nei database di autenticazione e nei server di CosaFare, in conformità con quanto 
+previsto dall'art. 17 del GDPR (Diritto all'oblio).
+
+12.2. Sospensione o revoca da parte del Gestore:
+Il Gestore si riserva la facoltà di sospendere o disattivare l'accesso dell'Utente, 
+senza preavviso e senza alcun obbligo risarcitorio, in presenza di:
+- Gravi o reiterate violazioni dei presenti Termini e Condizioni;
+- Uso improprio, abusivo, molesto o fraudolento dell'App;
+- Comprovate ragioni di sicurezza informatica o richieste pervenute da Autorità 
+  giudiziarie o di polizia.
+
+--------------------------------------------------------------------------------
+13. MODIFICHE AI TERMINI E CONDIZIONI
+--------------------------------------------------------------------------------
+Il Gestore si riserva il diritto di aggiornare o modificare i presenti Termini e 
+Condizioni per adeguarli a novità legislative, miglioramenti tecnici, introduzione 
+di nuove funzionalità o mutamenti organizzativi.
+
+La versione aggiornata sarà sempre consultabile all'interno dell'App, con indicazione 
+della data di "Ultimo aggiornamento". In caso di modifiche sostanziali che incidano 
+sui diritti dell'Utente, potrà essere richiesta una nuova conferma di accettazione 
+all'avvio dell'App. L'uso continuato dell'App a seguito della pubblicazione delle 
+modifiche costituirà implicita accettazione delle nuove condizioni.
+
+--------------------------------------------------------------------------------
+14. LEGGE APPLICABILE E FORO COMPETENTE
+--------------------------------------------------------------------------------
+I presenti Termini e Condizioni di Utilizzo sono regolati e devono essere interpretati 
+esclusivamente ai sensi della legge italiana.
+
+Nel caso in cui l'Utente rivesta la qualifica di Consumatore ai sensi del Codice del 
+Consumo, per qualsiasi controversia civile derivante dall'interpretazione, validità, 
+efficacia o esecuzione dei presenti Termini sarà competente inderogabilmente il 
+Giudice del luogo di residenza o di domicilio elettivo del Consumatore, se ubicati 
+nel territorio dello Stato italiano.
+
+Per tutti gli Utenti che non rivestono la qualifica di Consumatore (ivi compresi gli 
+Organizzatori a carattere commerciale o professionale), qualsiasi controversia sarà 
+devoluta alla competenza esclusiva del Foro territorialmente competente per il luogo 
+in cui ha sede il Gestore.
+
+È fatta salva la facoltà di accedere alle piattaforme europee per la risoluzione 
+alternativa delle controversie online (piattaforma ODR della Commissione Europea: 
+https://ec.europa.eu/consumers/odr).
+
+--------------------------------------------------------------------------------
+15. CONTATTI E SEGNALAZIONI
+--------------------------------------------------------------------------------
+Per richieste di assistenza tecnica, chiarimenti interpretativi sui presenti Termini, 
+segnalazioni relative a errori nei dati degli Eventi o comunicazioni relative alla 
+proprietà intellettuale, è possibile contattare il Gestore ai seguenti recapiti:
+- Email di supporto: tfdlab.info@gmail.com
+- Indirizzo postale / Sede: Cascina, Pisa, Italia
+- Canali in-app: sezione "Contatti" o "Segnalazioni" presente nell'App CosaFare
+
+================================================================================
+                           FINE DEL DOCUMENTO
+================================================================================

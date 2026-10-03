@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Termini e Condizioni di Utilizzo — CosaFare</title>
+  <meta name="description" content="Termini e Condizioni ufficiali di utilizzo dell'applicazione CosaFare - Guida ed eventi, sagre e fiere in Toscana.">
+  <meta name="theme-color" content="#c84b31">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='16' fill='%23c84b31'/><path d='M16 6C11.58 6 8 9.58 8 14c0 6 8 12 8 12s8-6 8-12c0-4.42-3.58-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' fill='white'/></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Barra di Avanzamento Lettura -->
+  <div id="readingProgress" class="reading-progress-bar" aria-hidden="true"></div>
+
+  <!-- Intestazione Principale / Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand-group">
+        <a href="#hero" class="brand-logo" aria-label="Torna all'inizio">
+          <span class="logo-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </span>
+          <div class="brand-text">
+            <span class="brand-name">CosaFare</span>
+            <span class="brand-tagline">Eventi & Tradizioni in Toscana</span>
+          </div>
+        </a>
+        <div class="header-badges">
+          <span class="badge badge-version">v1.1</span>
+          <span class="badge badge-date">03 Ottobre 2026</span>
+        </div>
+      </div>
+
+      <!-- Azioni dell'Header -->
+      <div class="header-actions">
+        <!-- Campo di Ricerca Rapida -->
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="searchInput" placeholder="Cerca clausole (es. account, minori, allergeni)..." aria-label="Cerca nei termini e condizioni">
+          <button id="clearSearchBtn" class="clear-search-btn" aria-label="Cancella ricerca" hidden>&times;</button>
+          <span class="search-shortcut" title="Premi / per cercare">/</span>
+        </div>
+
+        <!-- Pulsante Stampa / PDF -->
+        <button id="printBtn" class="action-btn" title="Stampa o salva come PDF">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span class="btn-text">Stampa / PDF</span>
+        </button>
+
+        <!-- Selettore Tema Chiaro/Scuro -->
+        <button id="themeToggle" class="action-btn theme-btn" aria-label="Cambia tema chiaro/scuro" title="Cambia tema chiaro/scuro">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Toggle Menù Mobile Indice -->
+        <button id="mobileTocToggle" class="action-btn mobile-toc-btn" aria-label="Apri indice dei contenuti">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <span class="btn-text">Indice</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner Conteggio Risultati Ricerca -->
+  <div id="searchStatusBar" class="search-status-bar" hidden>
+    <div class="search-status-inner">
+      <span id="searchResultCount">0 corrispondenze trovate</span>
+      <div class="search-nav-controls">
+        <button id="prevMatchBtn" title="Precedente (Shift+Enter)">&uarr;</button>
+        <button id="nextMatchBtn" title="Successivo (Enter)">&darr;</button>
+        <button id="closeSearchAlertBtn" class="close-search">&times;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenitore Principale -->
+  <div class="main-wrapper">
+    <!-- Hero Section / Introduzione -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Documento Legale Ufficiale
+        </div>
+        <h1 class="hero-title">Termini e Condizioni di Utilizzo</h1>
+        <p class="hero-subtitle">
+          Condizioni contrattuali e regole d'uso della piattaforma e dell'applicazione mobile <strong>CosaFare</strong> per eventi, sagre e manifestazioni in Toscana.
+        </p>
+
+        <!-- Informazioni Metadati -->
+        <div class="meta-strip">
+          <div class="meta-item">
+            <span class="meta-label">Ultimo aggiornamento</span>
+            <span class="meta-value">03 Ottobre 2026</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-item">
+            <span class="meta-label">Versione</span>
+            <span class="meta-value">v1.1</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-item">
+            <span class="meta-label">Gestore / Sviluppo</span>
+            <span class="meta-value">Progetto CosaFare &bull; TFDLab</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-item">
+            <span class="meta-label">Tempo di lettura</span>
+            <span class="meta-value" id="readTimeEstimate">~8 minuti</span>
+          </div>
+        </div>
+
+        <!-- Schede Punti Chiave in Sintesi -->
+        <div class="key-points-grid">
+          <div class="point-card">
+            <div class="point-icon">🧭</div>
+            <div class="point-body">
+              <h3>Guida Informativa</h3>
+              <p>Aggregatore e guida agli eventi toscani: sagre, feste e festival nelle 10 province.</p>
+            </div>
+          </div>
+          <div class="point-card">
+            <div class="point-icon">🔑</div>
+            <div class="point-body">
+              <h3>Google Sign-In & Ospite</h3>
+              <p>Naviga anonimo come Ospite oppure accedi con Google per sincronizzare i tuoi preferiti.</p>
+            </div>
+          </div>
+          <div class="point-card">
+            <div class="point-icon">🛡️</div>
+            <div class="point-body">
+              <h3>Diritto all'Oblio (GDPR)</h3>
+              <p>Cancellazione del profilo e dei dati immediata e autonoma dalle impostazioni dell'app.</p>
+            </div>
+          </div>
+          <div class="point-card">
+            <div class="point-icon">📍</div>
+            <div class="point-body">
+              <h3>Territorio & Mappe</h3>
+              <p>Integrazione con Google Maps SDK e calcolo distanze per raggiungere gli eventi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Layout a due colonne: Sidebar Indice + Contenuto Documento -->
+    <div class="content-layout">
+      <!-- Sidebar Indice (TOC) -->
+      <aside class="sidebar-wrapper" id="sidebarWrapper">
+        <div class="sidebar-sticky">
+          <div class="sidebar-header">
+            <h2 class="sidebar-title">Indice dei Contenuti</h2>
+            <span class="toc-counter">15 Sezioni</span>
+          </div>
+
+          <nav class="toc-nav" id="tocNav" aria-label="Indice dei capitoli">
+            <ol class="toc-list">
+              <li><a href="#sec-1" class="toc-link"><span class="toc-num">01</span> Gestore della Piattaforma e Premessa</a></li>
+              <li><a href="#sec-2" class="toc-link"><span class="toc-num">02</span> Definizioni</a></li>
+              <li><a href="#sec-3" class="toc-link"><span class="toc-num">03</span> Ambito di Applicazione</a></li>
+              <li><a href="#sec-4" class="toc-link"><span class="toc-num">04</span> Accettazione dei Termini e Condizioni</a></li>
+              <li><a href="#sec-5" class="toc-link"><span class="toc-num">05</span> Requisiti di Età e Capacità Giuridica</a></li>
+              <li><a href="#sec-6" class="toc-link"><span class="toc-num">06</span> Registrazione, Google Sign-In e Sicurezza</a></li>
+              <li><a href="#sec-7" class="toc-link"><span class="toc-num">07</span> Descrizione dei Servizi Offerti</a></li>
+              <li><a href="#sec-8" class="toc-link"><span class="toc-num">08</span> Obblighi, Condotta e Divieti Utenti</a></li>
+              <li><a href="#sec-9" class="toc-link"><span class="toc-num">09</span> Regole per gli Organizzatori e Contenuti</a></li>
+              <li><a href="#sec-10" class="toc-link"><span class="toc-num">10</span> Proprietà Intellettuale e Licenze</a></li>
+              <li><a href="#sec-11" class="toc-link"><span class="toc-num">11</span> Esclusione e Limitazione di Responsabilità</a></li>
+              <li><a href="#sec-12" class="toc-link"><span class="toc-num">12</span> Sospensione Servizi e Chiusura Account</a></li>
+              <li><a href="#sec-13" class="toc-link"><span class="toc-num">13</span> Modifiche ai Termini e Condizioni</a></li>
+              <li><a href="#sec-14" class="toc-link"><span class="toc-num">14</span> Legge Applicabile e Foro Competente</a></li>
+              <li><a href="#sec-15" class="toc-link"><span class="toc-num">15</span> Contatti e Segnalazioni</a></li>
+            </ol>
+          </nav>
+
+          <!-- Riquadro Supporto Rapido Sidebar -->
+          <div class="sidebar-help-card">
+            <h4>Hai domande legali?</h4>
+            <p>Contatta direttamente lo sviluppatore per supporto o delucidazioni.</p>
+            <a href="mailto:tfdlab.info@gmail.com" class="sidebar-contact-btn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>tfdlab.info@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Corpo del Testo Legale -->
+      <main class="legal-document" id="legalDocument">
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 1 -->
+        <!-- ========================================== -->
+        <article id="sec-1" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 01</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">1. Gestore della Piattaforma e Premessa</h2>
+              <button class="copy-anchor-btn" data-target="sec-1" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              Il presente documento (di seguito, i <strong>«Termini e Condizioni»</strong> o <strong>«Termini»</strong>) disciplina l'accesso, la consultazione e l'utilizzo dell'applicazione mobile <strong>"CosaFare"</strong>, del relativo sito/servizi web e dei sistemi di gestione e moderazione collegati (di seguito, congiuntamente, la <strong>«Piattaforma»</strong> o i <strong>«Servizi»</strong>).
+            </p>
+
+            <div class="operator-card">
+              <div class="operator-badge">Dati del Gestore</div>
+              <ul class="operator-details">
+                <li>
+                  <span class="detail-label">Titolare / Gestore:</span>
+                  <span class="detail-value">Progetto CosaFare (di seguito, il «Gestore»)</span>
+                </li>
+                <li>
+                  <span class="detail-label">Sviluppatore di riferimento:</span>
+                  <span class="detail-value">TFDLab</span>
+                </li>
+                <li>
+                  <span class="detail-label">Email di contatto e supporto:</span>
+                  <span class="detail-value"><a href="mailto:tfdlab.info@gmail.com" class="link-styled">tfdlab.info@gmail.com</a></span>
+                </li>
+                <li>
+                  <span class="detail-label">Territorio di riferimento principale:</span>
+                  <span class="detail-value">Regione Toscana, Italia</span>
+                </li>
+                <li>
+                  <span class="detail-label">Sede / Ubicazione:</span>
+                  <span class="detail-value">Cascina, Pisa, Italia</span>
+                </li>
+              </ul>
+            </div>
+
+            <p>
+              I presenti Termini stabiliscono i diritti e i doveri di chiunque acceda o utilizzi la Piattaforma. Si raccomanda di leggere attentamente il presente testo prima di iniziare la navigazione o di registrarsi ai Servizi.
+            </p>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 2 -->
+        <!-- ========================================== -->
+        <article id="sec-2" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 02</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">2. Definizioni</h2>
+              <button class="copy-anchor-btn" data-target="sec-2" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>Ai fini dell'interpretazione dei presenti Termini e Condizioni, si applicano le seguenti definizioni:</p>
+
+            <div class="definitions-grid">
+              <div class="definition-card">
+                <h3 class="def-term">«App» o «CosaFare»</h3>
+                <p class="def-desc">L'applicazione software per dispositivi mobili (Android e altri sistemi operativi supportati) denominata "CosaFare", comprensiva di tutte le interfacce, codici, database, loghi, grafiche e contenuti.</p>
+              </div>
+
+              <div class="definition-card">
+                <h3 class="def-term">«Gestore»</h3>
+                <p class="def-desc">Il soggetto responsabile dello sviluppo, manutenzione e gestione dell'App, come identificato all'articolo 1.</p>
+              </div>
+
+              <div class="definition-card">
+                <h3 class="def-term">«Utente»</h3>
+                <p class="def-desc">Qualsiasi persona fisica o giuridica che acceda all'App, ivi inclusi i visitatori non autenticati, gli utenti registrati e i referenti delle realtà organizzatrici.</p>
+              </div>
+
+              <div class="definition-card">
+                <h3 class="def-term">«Ospite» (o «Visitatore»)</h3>
+                <p class="def-desc">L'Utente che naviga e consulta l'App in modalità non autenticata (Guest Mode), senza procedere alla registrazione di un account.</p>
+              </div>
+
+              <div class="definition-card">
+                <h3 class="def-term">«Utente Registrato»</h3>
+                <p class="def-desc">L'Utente che ha effettuato l'autenticazione tramite il proprio account di terze parti (Google Sign-In) per usufruire delle funzionalità avanzate e personalizzate dell'App.</p>
+              </div>
+
+              <div class="definition-card">
+                <h3 class="def-term">«Organizzatore»</h3>
+                <p class="def-desc">Qualsiasi ente locale, comitato promotore, Pro Loco, associazione culturale o di volontariato, cooperativa, esercente o persona fisica che inserisce, segnala o richiede la pubblicazione di eventi, manifestazioni, sagre, feste o fiere sulla Piattaforma.</p>
+              </div>
+
+              <div class="definition-card">
+                <h3 class="def-term">«Evento»</h3>
+                <p class="def-desc">Qualsiasi sagra, festa tradizionale o patronale, festival musicale, rassegna culturale, mercatino, fiera, mostra o iniziativa ricreativa geolocalizzata sul territorio toscano e resa visibile all'interno dell'App.</p>
+              </div>
+
+              <div class="definition-card">
+                <h3 class="def-term">«Contenuti dell'Evento»</h3>
+                <p class="def-desc">Tutte le informazioni correlate a un Evento, inclusi a titolo esemplificativo titoli, descrizioni, date, orari di apertura, programmi, locandine grafiche, fotografie, menù gastronomici, prezzi, indicazioni stradali e coordinate geografiche.</p>
+              </div>
+
+              <div class="definition-card">
+                <h3 class="def-term">«Consumatore»</h3>
+                <p class="def-desc">La persona fisica che agisce per scopi estranei all'attività imprenditoriale, commerciale, artigianale o professionale eventualmente svolta, ai sensi del D.Lgs. 206/2005 («Codice del Consumo»).</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 3 -->
+        <!-- ========================================== -->
+        <article id="sec-3" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 03</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">3. Ambito di Applicazione</h2>
+              <button class="copy-anchor-btn" data-target="sec-3" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>I presenti Termini si applicano all'insieme dei Servizi erogati tramite l'App CosaFare e vincolano indistintamente:</p>
+            <div class="scope-cards-list">
+              <div class="scope-item">
+                <span class="scope-badge">1</span>
+                <div>
+                  <strong>I visitatori in modalità "Ospite"</strong>
+                  <p>Chiunque acceda all'applicazione per consultare liberamente il catalogo degli eventi territoriali.</p>
+                </div>
+              </div>
+              <div class="scope-item">
+                <span class="scope-badge">2</span>
+                <div>
+                  <strong>Gli Utenti Registrati mediante Google Sign-In</strong>
+                  <p>Coloro che associano il proprio profilo Google per memorizzare e sincronizzare i preferiti.</p>
+                </div>
+              </div>
+              <div class="scope-item">
+                <span class="scope-badge">3</span>
+                <div>
+                  <strong>Gli Organizzatori di Eventi</strong>
+                  <p>Soggetti che comunicano, caricano o aggiornano i Contenuti, i menù e i dettagli delle manifestazioni.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="callout callout-info">
+              <div class="callout-icon">ℹ️</div>
+              <div class="callout-content">
+                <strong>Servizi accessori e accordi particolari:</strong> L'erogazione di eventuali servizi accessori specifici o accordi commerciali dedicati con Organizzatori potrà essere regolata da condizioni particolari che integreranno o prevarranno sui presenti Termini in caso di espresso contrasto.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 4 -->
+        <!-- ========================================== -->
+        <article id="sec-4" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 04</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">4. Accettazione dei Termini e Condizioni</h2>
+              <button class="copy-anchor-btn" data-target="sec-4" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              L'accesso e la navigazione nell'App comportano la piena e incondizionata accettazione dei presenti Termini e Condizioni e della connessa Informativa sulla Privacy.
+            </p>
+
+            <div class="callout callout-alert">
+              <div class="callout-icon">☑️</div>
+              <div class="callout-content">
+                <strong>Consenso Obbligatorio al Primo Avvio:</strong><br>
+                Al primo avvio dell'App, sia in caso di accesso con registrazione (tramite Google Sign-In) sia in caso di prosecuzione come "Ospite", all'Utente viene sottoposta una casella di spunta obbligatoria (<em>«checkbox»</em>) mediante la quale dichiara espressamente:
+                <ul class="styled-list mt-2">
+                  <li><strong>a)</strong> Di aver preso visione, compreso e accettato integralmente i presenti Termini e Condizioni di Utilizzo;</li>
+                  <li><strong>b)</strong> Di aver preso visione e compreso l'Informativa sulla Privacy di CosaFare.</li>
+                </ul>
+              </div>
+            </div>
+
+            <p class="highlight-text-box">
+              ⚠️ <strong>Attenzione:</strong> In assenza della spunta di accettazione, l'accesso alle funzionalità dell'App non sarà consentito e la sessione rimarrà bloccata alla schermata di accesso.
+            </p>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 5 -->
+        <!-- ========================================== -->
+        <article id="sec-5" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 05</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">5. Requisiti di Età e Capacità Giuridica</h2>
+              <button class="copy-anchor-btn" data-target="sec-5" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              L'utilizzo dell'App e la fruizione dei relativi Servizi sono consentiti a utenti che abbiano compiuto <strong>almeno 14 anni</strong>. L'autenticazione tramite Google Sign-In è subordinata al rispetto dei termini di età previsti da Google per la titolarità di un account personale (di norma 14 anni per l'Italia).
+            </p>
+
+            <div class="rules-block">
+              <div class="rule-row">
+                <div class="rule-badge">Minori 14-18 anni</div>
+                <div class="rule-text">
+                  Nel caso in cui l'Utente sia un minore compreso tra i 14 e i 18 anni, l'utilizzo dei Servizi presuppone l'autorizzazione e la vigilanza del genitore o di chi ne esercita la responsabilità genitoriale, che risponderà dell'operato del minore sulla Piattaforma.
+                </div>
+              </div>
+              <div class="rule-row">
+                <div class="rule-badge rule-badge-danger">Minori di 14 anni</div>
+                <div class="rule-text">
+                  Il Gestore non raccoglie scientemente dati di minori di anni 14. Qualora dovesse accertarsi la registrazione di un minore privo dell'età minima prevista dalla legge, il Gestore provvederà tempestivamente alla rimozione dell'account e di tutti i dati correlati.
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 6 -->
+        <!-- ========================================== -->
+        <article id="sec-6" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 06</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">6. Registrazione, Google Sign-In e Sicurezza dell'Account</h2>
+              <button class="copy-anchor-btn" data-target="sec-6" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              L'App <strong>non richiede la creazione di una combinazione autonoma di username e password</strong> memorizzata sui server di CosaFare, bensì adotta il sistema di autenticazione federata fornito da Google (<strong>"Google Sign-In"</strong>), basato sull'infrastruttura Google Firebase.
+            </p>
+
+            <div class="subsection">
+              <h3 class="subsection-title">6.1. Obblighi dell'Utente Registrato</h3>
+              <ul class="styled-list">
+                <li>
+                  <strong>Titolarità dell'account:</strong> L'Utente garantisce che l'account Google utilizzato per accedere all'App è di sua esclusiva titolarità e che le informazioni anagrafiche fornite sono veritiere e aggiornate;
+                </li>
+                <li>
+                  <strong>Custodia delle credenziali:</strong> L'Utente è l'unico responsabile della riservatezza e della custodia delle proprie credenziali di accesso Google e risponde direttamente di tutte le attività compiute tramite il proprio profilo nell'App;
+                </li>
+                <li>
+                  <strong>Notifica di compromissione:</strong> In caso di smarrimento del dispositivo, compromissione dell'account o sospetto accesso non autorizzato, l'Utente è tenuto a revocare l'accesso dalle impostazioni del proprio account Google e a darne tempestiva comunicazione al Gestore all'indirizzo email: <a href="mailto:tfdlab.info@gmail.com" class="link-styled">tfdlab.info@gmail.com</a>.
+                </li>
+              </ul>
+            </div>
+
+            <div class="subsection">
+              <h3 class="subsection-title">6.2. Accesso come Ospite</h3>
+              <p>
+                La fruizione dell'App in modalità Ospite non richiede l'inserimento di dati identificativi personali. All'Ospite è assegnata una sessione locale anonima, che consente la consultazione del catalogo eventi ma <em>non consente il salvataggio dei preferiti sincronizzati in cloud tra dispositivi diversi</em>.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 7 -->
+        <!-- ========================================== -->
+        <article id="sec-7" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 07</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">7. Descrizione dei Servizi Offerti da CosaFare</h2>
+              <button class="copy-anchor-btn" data-target="sec-7" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              L'App CosaFare è concepita come una <strong>guida interattiva e un aggregatore informativo</strong> dedicato alla valorizzazione delle tradizioni, della gastronomia e degli eventi culturali della Regione Toscana.
+            </p>
+            <p>In particolare, l'App offre le seguenti funzionalità:</p>
+
+            <div class="features-showcase">
+              <!-- Feature 7.1 -->
+              <div class="feature-box">
+                <div class="feature-num">7.1</div>
+                <div class="feature-main">
+                  <h4>Catalogo e Ricerca Eventi</h4>
+                  <p>Consultazione di sagre, feste, festival e fiere suddivisi per categoria e per le <strong>dieci province toscane</strong>:</p>
+                  <div class="provinces-pills">
+                    <span class="province-pill">Arezzo</span>
+                    <span class="province-pill">Firenze</span>
+                    <span class="province-pill">Grosseto</span>
+                    <span class="province-pill">Livorno</span>
+                    <span class="province-pill">Lucca</span>
+                    <span class="province-pill">Massa-Carrara</span>
+                    <span class="province-pill">Pisa</span>
+                    <span class="province-pill">Pistoia</span>
+                    <span class="province-pill">Prato</span>
+                    <span class="province-pill">Siena</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 7.2 -->
+              <div class="feature-box">
+                <div class="feature-num">7.2</div>
+                <div class="feature-main">
+                  <h4>Scheda Dettaglio Evento</h4>
+                  <p>Visualizzazione di locandine promozionali, programma degli spettacoli, orari di inizio/fine, descrizione storica o culturale, eventuali costi d'ingresso e recapiti ufficiali dell'Organizzatore.</p>
+                </div>
+              </div>
+
+              <!-- Feature 7.3 -->
+              <div class="feature-box">
+                <div class="feature-num">7.3</div>
+                <div class="feature-main">
+                  <h4>Menù e Offerta Gastronomica</h4>
+                  <p>Per le sagre e gli eventi gastronomici, l'App consente di consultare l'elenco dei piatti tipici, dei menù proposti, dei prezzi indicativi e degli eventuali allergeni comunicati dagli Organizzatori.</p>
+                </div>
+              </div>
+
+              <!-- Feature 7.4 -->
+              <div class="feature-box">
+                <div class="feature-num">7.4</div>
+                <div class="feature-main">
+                  <h4>Mappa e Geolocalizzazione</h4>
+                  <p>
+                    Visualizzazione cartografica interattiva degli Eventi mediante l'integrazione del servizio <strong>Google Maps SDK</strong>; calcolo della distanza chilometrica in linea d'aria rispetto alla posizione istantanea dell'Utente (ove quest'ultimo abbia autorizzato l'accesso alla posizione GPS). L'App consente inoltre di avviare navigatori esterni installati sul dispositivo (ad es. Google Maps, Waze, Apple Maps) per ottenere le indicazioni stradali per raggiungere la sede dell'Evento.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Feature 7.5 -->
+              <div class="feature-box">
+                <div class="feature-num">7.5</div>
+                <div class="feature-main">
+                  <h4>Lista dei Preferiti</h4>
+                  <p>Gli Utenti Registrati possono memorizzare i propri Eventi preferiti per ritrovarli rapidamente in una sezione dedicata e consultarne agevolmente le date.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 8 -->
+        <!-- ========================================== -->
+        <article id="sec-8" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 08</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">8. Obblighi, Regole di Condotta e Divieti per gli Utenti</h2>
+              <button class="copy-anchor-btn" data-target="sec-8" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              L'Utente si impegna a utilizzare l'App in piena conformità con le leggi vigenti, l'ordine pubblico, il buon costume e i presenti Termini.
+            </p>
+            <p><strong>In particolare, è fatto espresso divieto all'Utente di:</strong></p>
+
+            <div class="prohibitions-list">
+              <div class="prohibition-item">
+                <span class="prohibition-num">1</span>
+                <p>Utilizzare l'App o i suoi contenuti per <strong>finalità illecite, ingannevoli, fraudolente</strong> o lesive dei diritti di terzi;</p>
+              </div>
+              <div class="prohibition-item">
+                <span class="prohibition-num">2</span>
+                <p>Compiere attività di <strong>"scraping", estrazione massiva o copia automatizzata</strong> dei dati, delle immagini, dei menù o degli Eventi presenti nel database di CosaFare senza preventiva autorizzazione scritta del Gestore;</p>
+              </div>
+              <div class="prohibition-item">
+                <span class="prohibition-num">3</span>
+                <p>Tentare di <strong>decompilare, disassemblare, decodificare o manomettere</strong> il codice sorgente dell'App, le API o i database Firebase correlati;</p>
+              </div>
+              <div class="prohibition-item">
+                <span class="prohibition-num">4</span>
+                <p>Introdurre <strong>virus, malware, bot</strong> o altro codice tecnologicamente dannoso che possa compromettere la stabilità, la sicurezza o le prestazioni dell'infrastruttura;</p>
+              </div>
+              <div class="prohibition-item">
+                <span class="prohibition-num">5</span>
+                <p><strong>Sovraccaricare o ostacolare</strong> intenzionalmente l'ordinario funzionamento dei server o dei sistemi di rete collegati all'App;</p>
+              </div>
+              <div class="prohibition-item">
+                <span class="prohibition-num">6</span>
+                <p>Sfruttare l'App per veicolare <strong>materiale pubblicitario non autorizzato, spam</strong>, catene di Sant'Antonio o forme non concordate di marketing diretto.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 9 -->
+        <!-- ========================================== -->
+        <article id="sec-9" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 09</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">9. Regole Specifiche per gli Organizzatori e Contenuti Caricati</h2>
+              <button class="copy-anchor-btn" data-target="sec-9" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              Gli Organizzatori che comunicano, caricano o gestiscono informazioni relative a Eventi (locandine, descrizioni, menù, listini prezzi, orari e recapiti) <strong>dichiarano e garantiscono</strong> che:
+            </p>
+
+            <ul class="styled-list">
+              <li>
+                <strong>a) Veridicità dei dati:</strong> Tutte le informazioni fornite sono veritiere, aggiornate, complete e non ingannevoli;
+              </li>
+              <li>
+                <strong>b) Autorizzazioni e concessioni:</strong> Sono in possesso di tutte le autorizzazioni, licenze, concessioni di suolo pubblico e nulla osta previsti dalla normativa amministrativa, sanitaria e di sicurezza per lo svolgimento della manifestazione;
+              </li>
+              <li>
+                <strong>c) Rispetto del copyright:</strong> Le immagini, i loghi, i testi e le locandine caricate non violano diritti d'autore, marchi registrati o altri diritti di proprietà intellettuale o industriale di terzi;
+              </li>
+              <li>
+                <strong>d) Normativa alimentare e allergeni:</strong> I menù e le composizioni gastronomiche rispettano le norme vigenti in materia di trasparenza dei prezzi e comunicazione di sostanze allergeniche (<strong>Regolamento UE n. 1169/2011</strong>).
+              </li>
+            </ul>
+
+            <div class="callout callout-warning">
+              <div class="callout-icon">⚖️</div>
+              <div class="callout-content">
+                <strong>Diritto di Moderazione e Rimozione:</strong><br>
+                Il Gestore si riserva in ogni momento il diritto insindacabile di verificare, moderare, rifiutare la pubblicazione o rimuovere qualsiasi Evento o Contenuto che risulti obsoleto, errato, fuorviante o in contrasto con le presenti condizioni o con la normativa applicabile, senza che da ciò derivi alcun diritto a indennizzi o risarcimenti a favore dell'Organizzatore.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 10 -->
+        <!-- ========================================== -->
+        <article id="sec-10" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 10</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">10. Proprietà Intellettuale e Licenza sui Contenuti</h2>
+              <button class="copy-anchor-btn" data-target="sec-10" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <div class="subsection">
+              <h3 class="subsection-title">10.1. Titolarità del Gestore</h3>
+              <p>
+                Tutti i diritti di proprietà intellettuale e industriale relativi all'App CosaFare, inclusi a titolo esemplificativo il nome, il marchio, il logo, il codice sorgente, le architetture software, il design grafico, le icone, la combinazione di colori e l'organizzazione dei database, sono di <strong>esclusiva titolarità del Gestore</strong> e/o dei suoi danti causa e sono protetti dalle leggi italiane ed internazionali sul diritto d'autore e sui diritti di proprietà industriale.
+              </p>
+            </div>
+
+            <div class="subsection">
+              <h3 class="subsection-title">10.2. Licenza d'uso per l'Utente</h3>
+              <p>
+                Il Gestore concede all'Utente una licenza personale, non esclusiva, non trasferibile, non sublicenziabile e revocabile per il download, l'installazione e l'uso dell'App su un dispositivo mobile compatibile, per <strong>soli scopi personali e non commerciali</strong>.
+              </p>
+            </div>
+
+            <div class="subsection">
+              <h3 class="subsection-title">10.3. Licenza sui contenuti inviati dagli Utenti/Organizzatori</h3>
+              <p>
+                Caricando o comunicando locandine, fotografie, descrizioni o menù per la pubblicazione sull'App, l'Organizzatore (o l'Utente) concede al Gestore una licenza gratuita, non esclusiva, mondiale, per l'intera durata della pubblicazione, finalizzata esclusivamente all'erogazione dei Servizi, ivi compresa la memorizzazione, l'adattamento grafico, la visualizzazione e la promozione dell'Evento sui canali ufficiali di CosaFare.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 11 -->
+        <!-- ========================================== -->
+        <article id="sec-11" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 11</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">11. Esclusione e Limitazione di Responsabilità</h2>
+              <button class="copy-anchor-btn" data-target="sec-11" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <div class="subsection">
+              <h3 class="subsection-title">11.1. Natura informativa del servizio</h3>
+              <p>
+                CosaFare è una piattaforma aggregatrice e divulgativa di informazioni relative a eventi ricreativi e culturali organizzati da terze parti indipendenti (Pro Loco, associazioni, enti comunali, comitati feste).
+              </p>
+            </div>
+
+            <div class="subsection">
+              <h3 class="subsection-title">11.2. Esclusione di garanzie sull'esattezza degli Eventi</h3>
+              <p>
+                Il Gestore impiega ragionevole cura e diligenza nella raccolta e verifica delle informazioni; tuttavia, <strong>NON può garantire né assumersi alcuna responsabilità circa</strong>:
+              </p>
+              <ul class="disclaimer-list">
+                <li>L'effettivo svolgimento, il rinvio o l'annullamento improvviso di un Evento (ad esempio per maltempo, motivi di ordine pubblico o cause di forza maggiore);</li>
+                <li>La totale esattezza di date, orari di apertura, ubicazione o programmi comunicati dagli Organizzatori;</li>
+                <li>L'esattezza dei prezzi indicati o la disponibilità delle pietanze riportate nei menù delle sagre;</li>
+                <li>La presenza o l'assenza di allergeni nelle pietanze preparate e somministrate dagli Organizzatori;</li>
+                <li>La sicurezza, l'igiene, la capienza o la qualità dei servizi somministrati o offerti durante gli Eventi.</li>
+              </ul>
+              <div class="callout callout-tip">
+                <div class="callout-icon">💡</div>
+                <div class="callout-content">
+                  <strong>Consiglio pratico per l'Utente:</strong> L'Utente è vivamente invitato a verificare preventivamente i dettagli dell'Evento contattando i canali ufficiali o i recapiti dell'Organizzatore prima di mettersi in viaggio.
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <h3 class="subsection-title">11.3. Continuità operativa e connettività</h3>
+              <p>
+                I Servizi sono forniti "nello stato di fatto e di diritto in cui si trovano" (<em>"as is"</em>). Il Gestore non garantisce che l'App operi senza interruzioni, errori, ritardi o disfunzioni derivanti da guasti delle reti di telecomunicazione, interruzioni dei servizi cloud di Google Firebase, indisponibilità temporanea dei servizi Google Maps o cause di forza maggiore.
+              </p>
+            </div>
+
+            <div class="subsection">
+              <h3 class="subsection-title">11.4. Limiti inderogabili</h3>
+              <p>
+                Nessuna disposizione dei presenti Termini esclude o limita la responsabilità del Gestore in caso di dolo o colpa grave, né limita i diritti inderogabili riconosciuti dalla legge a favore dell'Utente Consumatore.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 12 -->
+        <!-- ========================================== -->
+        <article id="sec-12" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 12</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">12. Sospensione dei Servizi e Chiusura dell'Account</h2>
+              <button class="copy-anchor-btn" data-target="sec-12" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <div class="subsection">
+              <h3 class="subsection-title">12.1. Chiusura da parte dell'Utente (Diritto all'Oblio - GDPR)</h3>
+              <p>
+                L'Utente Registrato può decidere in qualsiasi momento e senza alcun preavviso di interrompere l'utilizzo dell'App ed eliminare il proprio account.
+              </p>
+              <div class="callout callout-gdpr">
+                <div class="callout-icon">🔒</div>
+                <div class="callout-content">
+                  <strong>Procedura «Elimina Account» (Art. 17 GDPR):</strong><br>
+                  L'App mette a disposizione un'apposita procedura automatizzata all'interno della sezione "Profilo" o "Impostazioni" (<em>«Elimina Account»</em>). L'attivazione di tale funzione comporta la <strong>cancellazione definitiva del profilo utente e di tutti i dati memorizzati</strong> nei database di autenticazione e nei server di CosaFare, in conformità con quanto previsto dall'art. 17 del GDPR (Diritto all'oblio).
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <h3 class="subsection-title">12.2. Sospensione o revoca da parte del Gestore</h3>
+              <p>
+                Il Gestore si riserva la facoltà di sospendere o disattivare l'accesso dell'Utente, senza preavviso e senza alcun obbligo risarcitorio, in presenza di:
+              </p>
+              <ul class="styled-list">
+                <li>Gravi o reiterate violazioni dei presenti Termini e Condizioni;</li>
+                <li>Uso improprio, abusivo, molesto o fraudolento dell'App;</li>
+                <li>Comprovate ragioni di sicurezza informatica o richieste pervenute da Autorità giudiziarie o di polizia.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 13 -->
+        <!-- ========================================== -->
+        <article id="sec-13" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 13</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">13. Modifiche ai Termini e Condizioni</h2>
+              <button class="copy-anchor-btn" data-target="sec-13" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              Il Gestore si riserva il diritto di aggiornare o modificare i presenti Termini e Condizioni per adeguarli a novità legislative, miglioramenti tecnici, introduzione di nuove funzionalità o mutamenti organizzativi.
+            </p>
+            <p>
+              La versione aggiornata sarà sempre consultabile all'interno dell'App, con indicazione della data di <strong>"Ultimo aggiornamento"</strong>. In caso di modifiche sostanziali che incidano sui diritti dell'Utente, potrà essere richiesta una nuova conferma di accettazione all'avvio dell'App.
+            </p>
+            <p>
+              L'uso continuato dell'App a seguito della pubblicazione delle modifiche costituirà implicita accettazione delle nuove condizioni.
+            </p>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 14 -->
+        <!-- ========================================== -->
+        <article id="sec-14" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 14</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">14. Legge Applicabile e Foro Competente</h2>
+              <button class="copy-anchor-btn" data-target="sec-14" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              I presenti Termini e Condizioni di Utilizzo sono regolati e devono essere interpretati esclusivamente ai sensi della <strong>legge italiana</strong>.
+            </p>
+
+            <div class="jurisdiction-box">
+              <div class="jurisdiction-card">
+                <div class="card-icon">👥</div>
+                <h4>Per Utenti Consumatori</h4>
+                <p>
+                  Nel caso in cui l'Utente rivesta la qualifica di Consumatore ai sensi del Codice del Consumo, per qualsiasi controversia civile derivante dall'interpretazione, validità, efficacia o esecuzione dei presenti Termini sarà competente inderogabilmente il <strong>Giudice del luogo di residenza o di domicilio elettivo del Consumatore</strong>, se ubicati nel territorio dello Stato italiano.
+                </p>
+              </div>
+
+              <div class="jurisdiction-card">
+                <div class="card-icon">🏢</div>
+                <h4>Per Utenti Professionisti / Organizzatori</h4>
+                <p>
+                  Per tutti gli Utenti che non rivestono la qualifica di Consumatore (ivi compresi gli Organizzatori a carattere commerciale o professionale), qualsiasi controversia sarà devoluta alla <strong>competenza esclusiva del Foro territorialmente competente per il luogo in cui ha sede il Gestore</strong> (Pisa).
+                </p>
+              </div>
+            </div>
+
+            <div class="callout callout-info mt-4">
+              <div class="callout-icon">🇪🇺</div>
+              <div class="callout-content">
+                <strong>Risoluzione online delle controversie (ODR):</strong><br>
+                È fatta salva la facoltà di accedere alle piattaforme europee per la risoluzione alternativa delle controversie online promosse dalla Commissione Europea:
+                <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" class="link-styled link-external">
+                  https://ec.europa.eu/consumers/odr &nearr;
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ========================================== -->
+        <!-- SEZIONE 15 -->
+        <!-- ========================================== -->
+        <article id="sec-15" class="legal-section">
+          <header class="section-header">
+            <span class="section-tag">Sezione 15</span>
+            <div class="title-with-anchor">
+              <h2 class="section-title">15. Contatti e Segnalazioni</h2>
+              <button class="copy-anchor-btn" data-target="sec-15" title="Copia link alla sezione">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="section-content">
+            <p>
+              Per richieste di assistenza tecnica, chiarimenti interpretativi sui presenti Termini, segnalazioni relative a errori nei dati degli Eventi o comunicazioni relative alla proprietà intellettuale, è possibile contattare il Gestore ai seguenti recapiti:
+            </p>
+
+            <div class="contact-channels-grid">
+              <div class="contact-card">
+                <div class="contact-icon">✉️</div>
+                <h4>Email di Supporto</h4>
+                <p>Canale principale per domande e segnalazioni legali o tecniche.</p>
+                <a href="mailto:tfdlab.info@gmail.com" class="contact-action-link">tfdlab.info@gmail.com</a>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">📍</div>
+                <h4>Sede Territoriale</h4>
+                <p>Riferimento geografico del Gestore del progetto.</p>
+                <address class="contact-address">Cascina, Pisa, Italia</address>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">📱</div>
+                <h4>Canali In-App</h4>
+                <p>Supporto integrato direttamente all'interno dell'applicazione.</p>
+                <span class="contact-inapp">Sezione "Contatti" o "Segnalazioni" in CosaFare</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Conclusione Documento -->
+        <div class="doc-closure">
+          <div class="closure-badge">Fine del Documento</div>
+          <p class="closure-text">
+            I presenti Termini e Condizioni costituiscono l'accordo integrale tra l'Utente e il Gestore di CosaFare per l'utilizzo dell'App.
+          </p>
+          <div class="closure-actions">
+            <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" class="btn-secondary">
+              &uarr; Torna all'inizio
+            </button>
+            <button onclick="window.print()" class="btn-primary">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:6px;">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+              </svg>
+              Stampa o Salva PDF
+            </button>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- Toast Notifica Copia Link -->
+  <div id="toastNotification" class="toast-toast" role="status" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span id="toastMessage">Link copiato negli appunti!</span>
+  </div>
+
+  <!-- Pulsante Galleggiante Torna in Cima -->
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Torna all'inizio della pagina" title="Torna su">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Footer del Sito -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo">CosaFare</span>
+        <p class="footer-desc">
+          L'applicazione dedicata a sagre, feste tradizionali ed eventi culturali nella Regione Toscana.
+        </p>
+      </div>
+      <div class="footer-links">
+        <span class="footer-title">Riferimenti</span>
+        <ul>
+          <li><a href="#sec-1">Gestore & Premessa</a></li>
+          <li><a href="#sec-4">Accettazione Regole</a></li>
+          <li><a href="#sec-6">Google Sign-In</a></li>
+          <li><a href="#sec-12">GDPR & Cancellazione</a></li>
+          <li><a href="#sec-15">Assistenza & Contatti</a></li>
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <span class="footer-title">Informazioni Legali</span>
+        <p>&copy; 2026 CosaFare &bull; Sviluppato da TFDLab</p>
+        <p>Tutti i diritti riservati &bull; Cascina (PI), Italia</p>
+        <p class="footer-note">Applicazione mobile disponibile per Android e sistemi supportati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
