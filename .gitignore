@@ -1,0 +1,8 @@
+# File di testo con i contenuti sorgente
+*.txt
+termini-e-condizioni.txt
+
+# File di sistema e cache
+.DS_Store
+Thumbs.db
+Desktop.ini
